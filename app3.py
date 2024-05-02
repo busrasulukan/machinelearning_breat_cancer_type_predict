@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-import pickle
+import joblib
 from sklearn.preprocessing import StandardScaler
 
 def get_clean_data():
@@ -44,9 +44,8 @@ def add_sidebar(data):
 
 def add_prediction(input_data):
     # Load the model and scaler
-    with open("newmodel.pkl", "rb") as model_file, open("newscaler.pkl", "rb") as scaler_file:
-        model = pickle.load(model_file)
-        scaler = pickle.load(scaler_file)
+    model = joblib.load("newmodel.joblib")
+    scaler = joblib.load("newscaler.joblib")
 
     input_np = np.array(list(input_data.values())).reshape(1, -1)
     input_scaled = scaler.transform(input_np)
