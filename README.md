@@ -1,4 +1,6 @@
 # A BREAST CANCER PREDICTION STREAMLIT APP| BENIGN OR MALIGNANT 
+# STREAMLIT INTERFACE
+ ![image](https://github.com/busrasulukan/machinelearning_breat_cancer_type_predict/assets/129671358/fcc69717-1886-4432-bb82-93dd7a7d6633)
 
  ![image](https://github.com/busrasulukan/machinelearning_breat_cancer_type_predict/assets/129671358/8cb28e2c-5950-44a4-8f77-6f79f547bc14)
 
@@ -35,5 +37,4 @@
 
 > The developed machine learning model showed high accuracy and reliability in identifying breast cancer types. This helps patients make the right decisions in their diagnosis and treatment. Early detection of cancer cases can improve their chances of cure and increase survival rates. Therefore, the results of this study could provide a significant advance in breast cancer diagnosis and management.
 
-> ![image](https://github.com/busrasulukan/machinelearning_breat_cancer_type_predict/assets/129671358/fcc69717-1886-4432-bb82-93dd7a7d6633)
 
