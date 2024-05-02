@@ -1,5 +1,6 @@
 # A BREAST CANCER PREDICTION STREAMLIT APP| BENIGN OR MALIGNANT 
 # STREAMLIT INTERFACE
+You can visit model site by clik the link: https://benign-or-malignant-predict.streamlit.app/
  ![image](https://github.com/busrasulukan/machinelearning_breat_cancer_type_predict/assets/129671358/fcc69717-1886-4432-bb82-93dd7a7d6633)
 
  ![image](https://github.com/busrasulukan/machinelearning_breat_cancer_type_predict/assets/129671358/8cb28e2c-5950-44a4-8f77-6f79f547bc14)
