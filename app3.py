@@ -52,7 +52,7 @@ def add_prediction(input_data):
     # Tahmin sonucunu belirleme
     diagnosis = "Malignant" if prediction[0] == 1 else "Benign"
     benign_prob = round(model.predict_proba(input_scaled)[0][0], 3)
-    malicious_prob = round(model.predict_proba(input_scaled)[0][1], 3)
+    malignant_prob = round(model.predict_proba(input_scaled)[0][1], 3)
 
     # Tahmin sonucunu gösterme
     st.markdown("<h2 style='color: #F08080;'>Cell Cluster Status Result 📍</h2>", unsafe_allow_html=True)
@@ -63,8 +63,8 @@ def add_prediction(input_data):
     
     st.markdown("<h3 style='font-size: 20px;'>Benign Probability:</h3>", unsafe_allow_html=True)
     st.write(benign_prob)
-    st.markdown("<h3 style='font-size: 20px;'>Malicious Probability:</h3>", unsafe_allow_html=True)
-    st.write(malicious_prob)
+    st.markdown("<h3 style='font-size: 20px;'>Malignant Probability:</h3>", unsafe_allow_html=True)
+    st.write(malignant_prob)
 
 
     st.write("The analysis is to purely boost the quality of diagnosis and is not meant as a substitute to professional diagnosis")
